@@ -1,0 +1,23 @@
+{
+  "name": "pcat",
+  "version": "1.0.0",
+  "description": "pcat photo app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ustunmelih/PCAT.git"
+  },
+  "author": "melih ustun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ustunmelih/PCAT/issues"
+  },
+  "homepage": "https://github.com/ustunmelih/PCAT#readme",
+  "dependencies": {
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15"
+  }
+}
