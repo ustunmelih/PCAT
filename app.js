@@ -11,7 +11,7 @@ const app = express()
 //connect DB
 mongoose
   .connect(
-    'mongodb+srv://ustunmelih:65679497@cluster0.r32jb.mongodb.net/test?authSource=admin&replicaSet=atlas-hhp1o1-shard-0&readPreference=primary&appname=MongoDB%20Compass&ssl=true',
+    'mongodb+srv://ustunmelih:65679497@cluster0.0bc5l.mongodb.net/pcat-db?retryWrites=true&w=majority',
     {
       useNewUrlParser: true,
       useUnifiedTopology: true,
